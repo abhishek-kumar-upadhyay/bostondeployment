@@ -10,3 +10,8 @@
 Create a new environment
 conda create -p venv python==3.7 -y
 conda activate venv/
+
+For VS Code
+python -m venv venv
+
+git config --global user.name

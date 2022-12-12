@@ -15,3 +15,6 @@ For VS Code
 python -m venv venv
 
 git config --global user.name
+
+pip install streamlit
+streamlit run streamlit_app.py

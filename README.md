@@ -16,5 +16,6 @@ python -m venv venv
 
 git config --global user.name
 
+pip install -r requirements.txt
 pip install streamlit
 streamlit run streamlit_app.py

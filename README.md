@@ -19,3 +19,6 @@ git config --global user.name
 pip install -r requirements.txt
 pip install streamlit
 streamlit run streamlit_app.py
+
+docker build -t house_price .
+docker run -p 5000:5000 house_price
